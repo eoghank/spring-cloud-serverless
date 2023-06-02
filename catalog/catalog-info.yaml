@@ -12,6 +12,7 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-cloud-serverless'
+    'backstage.io/kubernetes-label-selector': 'app=spring-cloud-serverless'
 spec:
   type: service
   lifecycle: experimental
